@@ -1,0 +1,25 @@
+.app-header
+    display: flex
+    justify-content: space-around
+    font-size: 1.4em
+    border-bottom: 1px solid #000
+    padding: 10px 0
+    margin-bottom: 20px
+    &__status-on
+        color: green
+    &__status-off
+        color: red
+    &__user-name
+        span + span 
+            font-weight: bold
+            padding: 0 10px
+    &__log-out
+        button
+            border-radius: 5px
+            padding: 5px
+            background-color: inherit
+            border: 1px solid black
+            cursor: pointer
+            transition: 0.5s all 
+            &:hover
+                background-color: #9d9d9d
